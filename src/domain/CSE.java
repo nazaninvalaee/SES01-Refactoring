@@ -11,18 +11,6 @@ public class CSE {
 		this.section = 1;
 		this.examDate = null;
 	}
-
-	public CSE(Course course, Date examDate) {
-		this.course = course;
-		this.section = 1;
-		this.examDate = examDate;
-	}
-
-	public CSE(Course course, Date examDate, int section) {
-		this.course = course;
-		this.section = section;
-		this.examDate = examDate;
-	}
 	
 	public Course getCourse() {
 		return course;
